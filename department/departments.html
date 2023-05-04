@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+
+
+<!-- our services-->
+
+    <div class="row">
+      <header>
+      <h1>OUR SERVICES</h1>
+    </header>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="gyno.png" width="300" >
+          <h3>OBSTETRICS & GYNECOLOGY</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="Orthopedics.png" width="300" >
+          <h3>ORTHOPAEDICS</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="opthomology.png" width="300" >
+          <h3>OPTHOMOLOGY</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="cardiology.png" width="300" >
+          <h3>CARDIOLOGY</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="Gastroenterology.png" width="300" >
+          <h3>GASTROENTEROLOGY</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="Internal-Medicine.png" width="300" >
+          <h3>GENERAL MEDICINE</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            consequatur necessitatibus eaque.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <header>
+      <h1>DEPARTEMENTS</h1>
+    </header>
+    <div class="botton">
+    <div class="button-container">
+      <button id="button1">ORTHOPAEDICS</button>
+      <button id="button2">CARDIOLOGY</button>
+      <button id="button3">GASTROENTEROLOGY</button>
+      <button id="button4">RADIOLOGY</button>
+    </div>
+  </div>
+    <div class="content-container" >
+      <div id="content1" >
+        <div class="content"  class="paragraph">
+        <p>Orthopaedics (also called orthopaedic surgery) is the medical specialty that focuses on injuries and diseases of your body's musculoskeletal system. This complex system, which includes your bones, joints, ligaments, tendons, muscles, and nerves, allows you to move, work, and be active.
+          Once devoted to the care of children with spine and limb deformities, orthopaedists now care for patients of all ages, from newborns with clubfeet to young athletes requiring arthroscopic surgery to older people with arthritis. And anybody can break a bone at any age.</p>
+        <img src="orthopedics.jpeg">
+      </div>
+        
+      </div>
+      <div id="content2" class="hidden">
+        <div class="content">
+        <p>The term cardiology is derived from the Greek words “cardia,” which refers to the heart and “logy” meaning “study of.” Cardiology is a branch of medicine that concerns diseases and disorders of the heart, which may range from congenital defects through to acquired heart diseases such as coronary artery disease and congestive heart failure.
+          Physicians who specialize in cardiology are called cardiologists and they are responsible for the medical management of various heart diseases. Cardiac surgeons are the specialist physicians who perform surgical procedures to correct heart disorders.</p>
+        <img src="cardiology.jpeg">
+      </div>
+      </div>
+      <div id="content3" class="hidden">
+        <div class="content">
+          <p>gastroenterology, medical specialty concerned with the digestive system and its diseases. Gastroenterologists diagnose and treat the diseases and disorders of the esophagus, stomach, intestines, liver, biliary tract, and pancreas. Among the most common disorders they must deal with are gastroesophageal reflux disease (GERD), gastric and
+             duodenal ulcers, malignant tumours, inflammatory bowel diseases, colorectal cancer, and rectal disorders.</p>
+        <img src="gastroenterology.jpeg">
+       </div>
+      </div>
+      <div id="content4" class="hidden">
+        <div class="content">
+          <p>Radiology represents a branch of medicine that deals with radiant energy in the diagnosis and treatment of diseases. This field can be divided into two broad areas – diagnostic radiology and interventional radiology. A physician who specializes in radiology is called radiologist.
+            The outcome of an imaging study does not rely merely on the indication or the quality of its technical execution. Diagnostic radiology specialist represents the last link in the diagnostic chain, as they search for relevant image information to evaluate and finally support a sound diagnosis.</p>
+        <img src="radiology.jpeg">
+      </div>
+    </div>
+    </div>
+
+    <!-- registration-->
+    <div class="main">
+      <div class="inner">
+        <form action="" method="post">
+          <h1>Client Registration</h1>
+          <ul>
+            <li>
+              <div class="outer">
+                <label for="uname">Enter the User Name : </label>
+              </div>
+              <div class="innerblock">
+                <input type="text" onkeypress="return username(event);" name="uname"
+                  placeholder="Click here to Enter" maxlength="15"
+                  title="Username is used for login and please enter the username that you can remember"
+                  required="uname">
+              </div>
+              <div class="uname">Invalid UserName Format</div>
+            </li>
+            <li>
+              <div class="outer">
+                <label for="psw">Enter the Password : </label>
+              </div>
+              <div class="innerblock">
+                <input type="Password" id="upsw" name="psw" onkeypress="return userpsw(event);"
+                  maxlength="4" title="Password should contain only numbers and 4 digits"
+                  placeholder="****" required="password">
+              </div>
+              <div class="upsw">Invalid Password Format</div>
+            </li>
+            <li>
+              <div class="outer">
+                <label for="pswre-enter">Re-Enter the Password : </label>
+              </div>
+              <div class="innerblock">
+                <input type="Password" id="rpsw" onkeypress="return userPSWReEnter(event);"
+                  onblur="return verify(event);" name="pswre-enter" maxlength="4"
+                  title="Password should match the above" required="password" placeholder="****">
+              </div>
+              <div class="rpsw">Invalid Password Format</div>
+              <div class="valid">Password did not matched</div>
+            </li>
+            <li>
+              <div class="outer">
+                <label for="dob">Date of Birth : </label>
+              </div>
+              <div class="innerblock">
+                <input type="date" name="dob" required="date">
+              </div>
+            </li>
+            <li>
+              <div class="outer">
+                <label for="email">Enter the Email ID : </label>
+              </div>
+              <div class="innerblock">
+                <input type="text" name="email"
+                  title="Email is used for password recovery do remember the email."
+                  placeholder="asa@.com" required="email">
+              </div>
+            </li>
+            <li>
+              <div class="outer">
+                <label for="phnumber">Enter the Phone Number : </label>
+              </div>
+              <div class="innerblock">
+                <select>
+                  <option></option>
+                  <option>+401</option>
+                  <option>+986</option>
+                  <option>+141</option>
+                  <option>+91</option>
+                  <option>+1</option>
+                  <option>+014</option>
+                  <option>+035</option>
+                </select>
+                <input type="text" name="phnumber" id="phn" onkeypress="return userphn(event);"
+                  maxlength="10" title="Please select the Country Code and enter the mobile number"
+                  placeholder="MobileNumber" required="phnumber">
+              </div>
+              <div class="uphn">Invalid MobileNumber Format.</div>
+            </li>
+          </ul>
+          <div style="text-align : center; padding: 5px;"><input type="submit" name="submit"> <button><a
+                href="http://localhost:8081/Others/Project/Ananth_Atmakuri/Project_UI_Classes/HTML/Login_Page.html">Go
+                to Login Page</button></a></div>
+        </form>
+      </div>
+  
+    </div>
+  
+  </body>
+  
+  </html>
+    <!--gallery html-->
+
+<header>
+    <h1>GALLARY</h1>
+  </header>
+    <div id="pGroup-container">
+      <div class="pGroup">
+        <img src="image1.jpg"alt="profile picture1">
+      </div>
+      <div class="pGroup">
+        <img src="image2.jpg"alt="profile picture2">
+      </div>
+      <div class="pGroup">
+       <img src="image4.jpg"alt="profile picture3">
+      </div> 
+      <div class="pGroup">
+       <img src="image5.jpg"alt="profile picture4">
+      </div>
+      <div class="pGroup">
+        <img src="image2.jpg"alt="profile picture5">
+      </div>
+      <div class="pGroup">
+       <img src="image4.jpg"alt="profile picture6">
+      </div>
+      <div class="pGroup">
+       <img src="image5.jpg"alt="profile picture7">
+      </div>
+      <div class="pGroup">
+       <img src="image1.jpg"alt="profile picture8">
+      </div>
+      <div class="pGroup">
+       <img src="image4.jpg"alt="profile picture9">
+      </div>
+      <div class="pGroup">
+       <img src="image5.jpg"alt="profile picture10">
+      </div>
+      <div class="pGroup">
+       <img src="image2.jpg"alt="profile picture11">
+      </div>
+      <div class="pGroup">
+       <img src="image1.jpg"alt="profile picture12">
+      </div>
+    </div>
+
+
+    <!-- footer-->
+<div class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+                <a href="#">russia</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">course</a>
+                <a href="#">Feedback</a>
+                <a href="#">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> hyderabad, india 500041. </p>
+                <p> <i class="fas fa-envelope"></i> afexon@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            </div>      
+
+            <div class="box">
+                <h3> Follow us</h3>
+                <a herf="#"><i class="fab fa-facebook-f"></i> facebook </a>
+                <a herf="#"><i class="fab fa-twitter"></i> twitter </a>
+                <a herf="#"><i class="fab fa-instagram"></i> instagram </a>
+                <a herf="#"><i class="fab fa-linkedin"></i> linkedin </a>
+
+
+
+
+            </div>
+                </div>
+            </div>
+
+  
+  <script src="dep.js"></script>
+</body>
+</html>
+
+
+
